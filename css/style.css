@@ -1,6 +1,11 @@
 body {
-  background-color: rgba(55,61,73,0.975);
+  background-color: rgba(240,240,240,1);
+  font-family: inherit;
 }
+
+/**************************
+Navbar
+**************************/
 
 .navbar-default {
   background-color: rgba(55,61,73,0.975);
@@ -8,7 +13,7 @@ body {
   margin: 25px 0 25px 0;
 }
 
-.navbar-default li{
+.navbar-default li {
   font-size: 16px;
   letter-spacing: 2.5px;
   padding-left: 25px;
@@ -16,20 +21,29 @@ body {
   text-transform: uppercase;
 }
 
-
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
 }
 
-.navbar .navbar-collapse {
+/*.navbar .navbar-collapse {
   text-align: center;
+}*/
+
+hr {
+  background-color: white;
+  border: none;
+  height: 1.4px;
+  margin-bottom: -4px;
+  width: 170px;
 }
 
-.link-work {
-  color: white;
+.hr {
+  background-color: white;
+  height:100px;
+  width: 3px;
 }
 
-.link-work {
-
+div.hr p{
+  letter-spacing: uppercase;
 }
