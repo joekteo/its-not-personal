@@ -1,0 +1,35 @@
+body {
+  background-color: rgba(55,61,73,0.975);
+}
+
+.navbar-default {
+  background-color: rgba(55,61,73,0.975);
+  border: 0px;
+  margin: 25px 0 25px 0;
+}
+
+.navbar-default li{
+  font-size: 16px;
+  letter-spacing: 2.5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-transform: uppercase;
+}
+
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.link-work {
+  color: white;
+}
+
+.link-work {
+
+}
